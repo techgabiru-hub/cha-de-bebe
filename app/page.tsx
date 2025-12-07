@@ -44,7 +44,7 @@ export default function Home() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === "admin") { // SENHA FIXA
+    if (password === "vascodagamaeomelhortimedomundo123456789#$") { // SENHA FIXA
       setIsAdmin(true);
       setShowLogin(false);
     } else {
